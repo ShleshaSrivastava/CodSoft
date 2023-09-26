@@ -1,0 +1,42 @@
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    border: 2px solid #333;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.display {
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    height: 40px;
+    font-size: 24px;
+    text-align: right;
+}
+
+#operator-display {
+    font-size: 16px;
+    color: #888;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    width: 100%;
+    height: 60px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.operator {
+    background-color: #f0f0f0;
+}
+
